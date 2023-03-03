@@ -1,1 +1,231 @@
+ques:1
 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float a,c,b;
+    scanf("%f%f%f",&a,&b,&c);
+    printf("%f\n",(pow(a,b)));
+    printf("%f",(sqrt(c)));
+ 
+    return 0;
+}
+
+ques:2
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    
+    int h,m;
+    scanf("%d%d",&h,&m);
+    if ((h>=12 && h<=11)&&(m>=00 &&m<=59))
+    {
+        printf("Good Morning");        
+    }
+    else if ((h>=12 && h<=15)&&(m>=00 && m<=59))
+    {
+        printf("Good Afternoon");
+    }
+    else if ((h>=16 && h<=20)&&(m>=00 && m<=59))
+    {
+        printf("Good Evening");
+    }
+    else if ((h>=22 && h<=23)&&(m>=00 && m<=59))
+    {
+        printf("Good Night");
+    }
+    else if ((h>=1 && h<=3)&&(m>=00 && m<=59))
+    {
+        printf("Good Night");
+    }
+    return 0;
+}
+
+ques:3
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int N,S,C,H,L,T;
+    int a,b,c;
+    scanf("%d%d%d%d%d%d",&N,&S,&C,&H,&L,&T);
+    a=S*C*H;
+    b=N-L;
+    c=N*T;
+    if (a<c)
+    {
+        printf("Goa Jaayenge");
+    }
+    else{
+        printf("Padhai Karenge");
+    }
+   
+    return 0;
+}
+
+ques:4
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float N,B,G,I,D;
+    float a,b,c;
+    scanf("%f%f%f%f%f",&N,&B,&G,&I,&D);
+    a=B*I;
+    b=G*D;
+    c=a-b;
+    if (c>0)
+    {
+        printf("Simple Questions");
+        
+    }
+    else if(c<0)
+    {
+        printf("Funny Questions");
+        
+    }
+    else
+    {
+        printf("God Knows!");
+        
+    }
+
+       
+    return 0;
+}    
+    
+ques:5
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,b,r;
+    scanf("%d%d%d",&a,&b,&r);
+    if ((a+b)!=r)
+    {
+        if(a*b==r)
+        {
+            printf("*");
+        }
+        if(a/b==r)
+        {
+            printf("/");
+        }
+        if(a-b==r)
+        {
+            printf("-");
+        }
+        if(a%b==r)
+        {
+            printf("%%");
+        }
+    }
+    else{printf("+");}
+    return 0;
+}
+
+ques:6
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main()
+{
+     double p1,p2,p3,A;
+    double c=0;
+    scanf("%lf%lf%lf%lf",&p1,&p2,&p3,&A);
+    if (p1<A)
+    {
+        c++;
+    }
+    if(p2<A)
+    {
+        c++;
+    }
+    if (p3<A)
+    {
+        c++;
+    }
+    if (p1<A)
+    {
+     printf("%.3lf\n",1/c);
+    }
+    else 
+    {
+     printf("0.000\n");
+    }
+    if (p2<A)
+    {
+    printf("%.3lf\n",1/c);
+    }
+    else 
+    {
+      printf("0.000\n");
+    }
+    if (p3<A)
+    {
+     printf("%.3lf\n",1/c);
+    }
+    else 
+    {
+      printf("0.000\n");
+    }
+    return 0;
+}    
+
+ques:7
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if ((a>b)&&(a>c))
+    {
+        printf("%d",a);
+    }
+    else if ((b>a)&&(b>c))
+    {
+        printf("%d",b);
+    }
+    else
+    {
+        printf("%d",c);
+    }   
+    return 0;
+}
+
+ques:8
+
+
+    
+    
