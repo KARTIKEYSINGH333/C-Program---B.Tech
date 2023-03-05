@@ -1,0 +1,196 @@
+ques 1: Find the Time 1
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float r, t;
+    scanf("%f", &r);
+    t = 100 / r;
+    printf("%.2f", t);
+    return 0;
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+
+ques 2: Hello Me 1
+
+#include <stdio.h>
+
+int main() {
+    char name[1000000];
+    scanf("%s", name);
+    printf("Welcome %s\n", name);
+    return 0;
+}
+
+ques 3: Wonderful Chocolate Offer
+
+#include <stdio.h>
+
+int main() {
+    int C, N, D;
+    scanf("%d", &C);        
+    scanf("%d", &N);
+    scanf("%d", &D);
+    printf("%d", (C + N * D) - (1 * N));
+    return 0;
+}
+
+ques 4: Compound For Two Years
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+   float p, r, ci;
+
+   // get user input for principal and interest rate
+   printf("");
+   scanf("%f", &p);
+
+   printf("");
+   scanf("%f", &r);
+
+   // calculate compound interest for 2 years
+   ci = p * pow((1 + r/100), 2) - p;
+
+   // display the result
+   printf(" %.2f\n", ci);
+
+   return 0;
+}
+
+ques 5: Simple Interest 6
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int p,r,t;
+    scanf("%d%d%d",&p,&r,&t);
+    printf("%d",(p+((p*r*t)/100)));
+    
+    return 0;
+}
+
+ques 6: Ant Consensus
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int C, K, N;
+    long long population;
+
+    
+    scanf("%d", &C);
+    scanf("%d", &K);
+    scanf("%d", &N);
+
+    
+    population = (long long)C * pow(K, N);
+
+    
+    printf("%lld\n", population);
+
+    return 0;
+}
+
+ques 7: Encoded name
+
+#include <stdio.h>
+
+int main() {
+    int w1, w2, w3, w4, w5;
+    scanf("%d&%d&%d&%d&%d", &w1, &w2, &w3, &w4, &w5);
+    printf("%c%c%c%c%c\n", w1, w2, w3, w4, w5);
+    return 0;
+}
+
+
+ques 8: Leap years 2
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+  
+    int YEAR, i;
+    scanf("%d", &YEAR);
+    for (i = 1; i <= YEAR; i++){
+        if ((i % 4 == 0 && i % 100 != 0) || (i % 400 == 0)){
+            printf("%d ", i);
+        }
+    }
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
